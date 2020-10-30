@@ -13,7 +13,7 @@ class UnitDim:
     amount: Union[int, float]  # e.g. 1.2
     unit: str                  # e.g. 'm'
 
-class ColorCode:
+class ColorScheme:
     name: str                    # e.g. 'DIN' for DIN 47100
     color_sequence: List[Color]  # e.g. [WH, BN, GN, YE, ...]
 

@@ -31,7 +31,7 @@ class Cable(Part):
         ShieldedGroup,
         TwistedPair,
         Wire]]
-    color_code: Optional[ColorCode]
+    color_code: Optional[ColorScheme]
     pass
 
 # TODO: define a representation/object/syntax for defining
