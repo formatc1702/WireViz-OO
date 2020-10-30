@@ -1,5 +1,5 @@
 class Part:
-    ignore_in_bom: Optional[bool] = False
+    ignore_in_bom: bool = False
     pn: Optional[str]
     mpn: Optional[str]
     manufacturer: Optional[str]
