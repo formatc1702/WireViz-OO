@@ -1,0 +1,15 @@
+# Filesystem
+.DS_Store
+desktop.ini
+thumbs.db
+# Python
+__pycache__
+*.pyc
+venv/
+# Other
+.eggs
+.*.swp
+*.egg-info
+build
+data
+dist
